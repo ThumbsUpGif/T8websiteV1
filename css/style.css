@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body
+{   
+    color: #5F6779;
+}
+
+h1 {
+    color: inherit;
+    font-weight: 200;
+    font-size: 100px;
+}
+
+h2 {
+    color: inherit;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+h3 {
+    color: inherit;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+h4 {
+    color: inherit;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+p {
+    color: inherit;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* STRUCTURE (in order of appearance) */
+
+.container {
+    width: 96vw;
+    justify-content: center;
+    /* flex-direction: row; */
+  }
+
+
+.menu {
+    background-color: white;
+    width: 100vw;
+    height: 60px;
+    /* height: 7vh; */
+    z-index: +1;
+}
+
+.Zplus1 {
+    /* background-color: crimson; */
+    /* height: 300px; */
+    /* top: 70px; */
+    /* position: absolute; */
+    z-index: +1;
+}
+
+
+.section-1 {
+    /* background-color: wheat; */
+    /* height: 1084px; */
+    height: 100vh;
+    z-index: -1;
+}
+
+.fullbleed-1 {
+    background-color: yellow;
+    background-image: url('../media/placeholder1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+    z-index: -2;
+
+}
+
+.section-2 {
+    /* background-color: coral; */
+    height: 650px;
+}
+
+.fullbleed-2 {
+    /* background-color: darkcyan; */
+    background-image: url('../media/placeholder2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 400px; /* this might need adjustment */
+}
+
+.section-3 {
+    /* background-color: yellowgreen; */
+    height: 760px;
+}
+
+.section-4 {
+    background-color: cornflowerblue;
+    height: 700px; /* this might need adjustment */
+
+}
+
+.fullbleed-3 {
+    background-color: darkcyan;
+    background-image: url('../media/placeholder1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 0%;
+    width: 100vw;
+    height: 260px;  /* this might need adjustment */
+    z-index: -1;
+
+}
+
+.floating-logo {
+    justify-content: center;
+    height: 45px;
+    width: 100vw;
+    /* z-index: +3; */
+}
+
+
+
+
+/*IMAGE STYLING*/
+
+.image-border img {
+    border: 1px solid #eee;
+}
+
+.parallax-container {
+    height: 400px;
+  }
+      
+
+  .floating-logo img  {
+    position: absolute;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin-left: -60px; /* Half the width */
+ }
+
+/* DISTANCE TAGS */
+
+#distance-120px {
+    /* background-color: aqua; */
+    height: 120px;
+}
+
+#distance-90px {
+    /* background-color: darkblue; */
+    height: 90px;
+}
+
+#distance-80px {
+    /* background-color: lightblue; */
+    height: 80px;
+}
+
+#distance-70px {
+    background-color: blue;
+    height: 70px;
+}
+
+#distance-60px {
+    /* background-color: blue; */
+    height: 60px;
+}
+
+#distance-50px {
+    background-color:teal;
+    height: 50px;
+}
+
+#distance-40px {
+    /* background-color:teal; */
+    height: 40px;
+}
+
+#distance-30px {
+    /* background-color:teal; */
+    height: 30px;
+}
+
+#distance-20px {
+    /* background-color:teal; */
+    height: 20px;
+}
