@@ -294,9 +294,13 @@ a {
     .fullbleed-1,
     .fullbleed-2,
     .fullbleed-3  {
-        background-color: #eee;
-        background-image: url('');
+        background-color: #fbf27b;
+        background-image: linear-gradient(135deg, #FDF495 31%, #f280ce 92%);
         height: auto;
+    }
+
+    .menu {
+        background-color: rgba(0, 0, 0, 0);
     }
 
     .floating-logo {
