@@ -188,7 +188,7 @@ a {
     position: absolute;
     left: 50%;
     width: 120px;
-    height: 120px;
+    height: auto;
     margin-left: -60px;
     /* Half the width */
 }
@@ -288,3 +288,74 @@ a {
 
 
 /*MEDIA SCREEN*/
+
+
+@media screen and (max-width: 500px) {
+    .fullbleed-1,
+    .fullbleed-2,
+    .fullbleed-3  {
+        background-color: #eee;
+        background-image: url('');
+        height: auto;
+    }
+
+    .floating-logo {
+        visibility: hidden;
+    }
+
+    h1 {
+        font-weight: 400;
+        font-size: 8vw;
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-weight: 400;
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .button {
+        height: 40px;
+        width: 180px;
+        border-radius: 5px;
+    }
+
+    #media-screen-hide img {
+        visibility: hidden;
+        height: 10px;
+    }
+
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-4,
+    .section-5,
+    .section-6 {
+        height: auto;
+    }
+
+    .section-6 {
+        visibility: hidden;
+        height: 5px;
+    }
+
+    #distance-120px,
+    #distance-90px,
+    #distance-80px,
+    #distance-70px,
+    #distance-60px,
+    #distance-50px,
+    #distance-40px,
+    #distance-30px,
+    #distance-20px {
+        /* background-color:teal; */
+        height: 30px;
+    }
+
+
+}
