@@ -11,7 +11,7 @@ body {
 
 h1 {
     color: inherit;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 100px;
 }
 
@@ -29,7 +29,7 @@ h3 {
 
 h4 {
     color: inherit;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
 }
 
@@ -104,11 +104,11 @@ a {
 
 .fullbleed-1 {
     /* background-color: yellow; */
-    background-image: url('../media/placeholder1.jpg');
+    background-image: url('../media/U_alex-loup-Md6_qA-BMis-unsplash_brigther.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 90vh;
+    height: 99vh;
     z-index: -2;
 
 }
@@ -151,8 +151,8 @@ a {
 }
 
 .fullbleed-3 {
-    /* background-color: darkcyan; */
-    background-image: url('../media/placeholder1.jpg');
+    background-color: #EDEDED;
+    /* background-image: url('../media/U_alex-loup-Md6_qA-BMis-unsplash_brigther.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     bottom: 0%;
@@ -285,3 +285,6 @@ a {
     font-weight: 900;
     font-style: normal;
 }
+
+
+/*MEDIA SCREEN*/
