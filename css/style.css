@@ -289,6 +289,7 @@ a {
 
 /*MEDIA SCREEN*/
 
+/*Smart phones*/
 @media screen and (max-width: 500px) {
     .fullbleed-1,
     .fullbleed-2,
@@ -301,6 +302,28 @@ a {
     .menu {
         background-color: rgba(0, 0, 0, 0);
     }
+
+    .menu img {
+        transform: translate(75vw, 20px);
+        height: 50px;
+        width: auto;
+    }
+
+    #media-screen-move-1 {
+        transform: translate(0px, -50px);
+        
+    }
+    #media-screen-move-2 {
+      
+        transform: translate(0px, -70px);
+    }
+
+    #media-screen-move-3 {
+        transform: translate(-20px, -60px);
+        text-align: center;
+        text-align: center;
+    }
+
 
     .floating-logo {
         visibility: hidden;
@@ -364,7 +387,13 @@ a {
 }
 
 
-@media screen and (min-device-width: 501px) and (max-device-width: 1024px) {
+/*IPAD*/
+@media screen and (min-device-width: 501px) and (max-device-width: 1025px) {
+
+    body {
+        /* width: 90vw; */
+    }
+
     .fullbleed-1,
     .fullbleed-2,
     .fullbleed-3  {
@@ -382,9 +411,16 @@ a {
         transform: translate(80vw, 20px);
     }
 
-    .menu #about-section {
-        transform: translate(-30px, 0);
+   #media-screen-move-1 {
+        transform: translate(-50px, 0);
     }
+
+    #media-screen-move-2 {
+        transform: translate(0px, 0);
+    }
+
+ 
+ 
 
     .floating-logo {
         visibility: hidden;
@@ -427,8 +463,8 @@ a {
     }
 
     .section-6 {
-        visibility: hidden;
-        height: 5px;
+        /* visibility: hidden;
+        height: 5px; */
     }
 
     #distance-120px,
