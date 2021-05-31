@@ -79,21 +79,25 @@ a {
 
 
 .menu {
-    background-color: white;
+    /* background-color: white; */
     /* width: 100vw; */
-    height: 60px;
+    height: 90px;
     /* height: 7vh; */
     /* z-index: +1; */
 }
 
-.Zplus1 {
+
+
+.top-logo {
     /* background-color: crimson; */
-    /* height: 300px; */
-    /* top: 70px; */
-    /* position: absolute; */
+    transform: translate(0, 15px);
     z-index: +1;
 }
 
+.menu-button {
+    transform: translate(0, 21px);
+    z-index: +1;
+}
 
 .section-1 {
     /* background-color: wheat; */
@@ -104,11 +108,12 @@ a {
 
 .fullbleed-1 {
     /* background-color: yellow; */
-    background-image: url('../media/U_alex-loup-Md6_qA-BMis-unsplash_brigther.jpg');
+    
+    background-image: url('../media/blob3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 99vh;
+    height: 100vh;
     z-index: -2;
 
 }
@@ -151,8 +156,7 @@ a {
 }
 
 .fullbleed-3 {
-    background-color: #EDEDED;
-    /* background-image: url('../media/U_alex-loup-Md6_qA-BMis-unsplash_brigther.jpg'); */
+    background-image: url('../media/blob6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     bottom: 0%;
@@ -303,8 +307,12 @@ a {
         background-color: rgba(0, 0, 0, 0);
     }
 
+    .menu-button {
+        transform: translate(0, 0);
+    }
+
     .menu img {
-        transform: translate(75vw, 20px);
+        transform: translate(75vw, 5px);
         height: 50px;
         width: auto;
     }
@@ -323,7 +331,6 @@ a {
         text-align: center;
         text-align: center;
     }
-
 
     .floating-logo {
         visibility: hidden;
@@ -407,8 +414,12 @@ a {
         /* flex-direction: column; */
     }
 
+    .menu-button {
+        transform: translate(0, 0);
+    }
+
     .menu img {
-        transform: translate(80vw, 20px);
+        transform: translate(85vw, 3px);
     }
 
    #media-screen-move-1 {
@@ -416,11 +427,8 @@ a {
     }
 
     #media-screen-move-2 {
-        transform: translate(0px, 0);
+        transform: translate(-20px, 0);
     }
-
- 
- 
 
     .floating-logo {
         visibility: hidden;
