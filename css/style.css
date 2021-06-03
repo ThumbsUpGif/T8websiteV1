@@ -64,7 +64,7 @@ a {
 
 .button2 {
     /* background-color: #4e4d62; */
-    border: solid 3px;
+    border: solid 2px;
     border-color: linear-gradient(165deg, #4e4d62 44%, #706f83 100%);
 
     height: 80px;
