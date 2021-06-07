@@ -91,7 +91,7 @@ a {
 .fullbleed-1 {
     /* background-color: yellow; */
     
-    background-image: url('../media/blob1.jpg');
+    background-image: url('../media/fullbleed.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -138,7 +138,7 @@ a {
 }
 
 .fullbleed-3 {
-    background-image: url('../media/blob1.jpg');
+    background-image: url('../media/fullbleed.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     bottom: 0%;
@@ -381,9 +381,9 @@ a {
     }
 
 
-    #media-screen-hide img {
+    #media-screen-hide  {
         visibility: hidden;
-        height: 10px;
+        height: 1px;
     }
 
     .section-1,
